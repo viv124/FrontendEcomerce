@@ -1,0 +1,19 @@
+.payment-options {
+    height: 20px;
+}
+
+.payment-row {
+    background: #1E2832;
+    color: white;
+}
+
+.logo {
+    height: 1.6rem;
+}
+
+
+@media (min-width: 992px) {
+    footer>.container>.row {
+        padding: 5rem !important;
+    }
+}

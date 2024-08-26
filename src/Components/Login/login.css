@@ -1,0 +1,43 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.auth-container .card {
+    width: 40rem;
+    padding: 1rem 2.3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    min-height: 1.2rem;
+}
+
+.auth-btn {
+    width: 10rem;
+}
+
+
+@media (max-width: 768px) {
+    /* .auth-container>.form {} */
+}
+
+/* @media (max-width: 576px) { */
+@media (max-width: 767px) {
+    .auth-btn {
+        width: 100% !important;
+    }
+}
+
+.outer-auth {
+    min-height: 100svh;
+}
+
+.show-hide-password {
+    cursor: pointer;
+    position: absolute !important;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

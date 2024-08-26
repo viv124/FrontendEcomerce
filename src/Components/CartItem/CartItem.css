@@ -1,0 +1,26 @@
+.cart-product-image img {
+    overflow: hidden;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    height: 12rem;
+    width: 100%;
+}
+
+.dropdown-menu {
+    height: 20rem;
+    overflow-y: scroll;
+}
+
+.delete-button {
+    width: 2rem !important;
+    height: 2rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.delete-button:hover {
+    background-color: rgb(173, 0, 0) !important;
+}

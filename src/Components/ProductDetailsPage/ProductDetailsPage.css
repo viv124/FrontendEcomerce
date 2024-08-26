@@ -1,0 +1,14 @@
+.product-image img {
+    height: 30rem;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.product-detail-page-container {
+    min-height: 60lvh;
+    height: auto;
+}
+
+.star-rating {
+    transform: translateY(-3px);
+}

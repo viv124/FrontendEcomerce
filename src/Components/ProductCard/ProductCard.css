@@ -1,0 +1,45 @@
+.product-card-image {
+    overflow: hidden;
+}
+
+.product-card-image img {
+    max-width: 15rem !important;
+    overflow: hidden;
+    height: 15rem !important;
+    object-fit: cover;
+}
+
+.product-img-btn-row .wishlist-icon,
+.product-img-btn-row .search-icon {
+    color: white;
+    background-color: transparent !important;
+}
+
+
+
+
+.product-img-btn-row {
+    position: absolute;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+
+    opacity: 0;
+}
+
+.product-card-image:hover .product-img-btn-row {
+    top: auto;
+    bottom: 0px;
+    opacity: 1;
+}
+
+.product-card-image:not(:hover) .product-img-btn-row {
+    opacity: 0;
+}
+
+.product-card-body {
+    width: 15rem !important;
+    overflow: hidden;
+}
